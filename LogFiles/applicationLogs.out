@@ -1,0 +1,8 @@
+2023-11-23 17:11:394 INFO  TestRunner:32 - Execution Starts at: Thu Nov 23 17:40:10 IST 2023
+2023-11-23 17:11:820 INFO  PageActions:64 - Navigated to demo site
+2023-11-23 17:11:139 INFO  PageActions:411 - Enter the value into Username
+2023-11-23 17:11:332 INFO  PageActions:416 - mngr540281 typed into Username
+2023-11-23 17:11:742 INFO  PageActions:411 - Enter the value into Password
+2023-11-23 17:11:982 INFO  PageActions:416 - YbupAzY typed into Password
+2023-11-23 17:11:155 INFO  PageActions:130 - Clicking on: login
+2023-11-23 17:11:531 INFO  TestRunner:41 - Execution Ends at: Thu Nov 23 17:40:32 IST 2023
