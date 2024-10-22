@@ -27,10 +27,11 @@ public class StartDriver {
 	 */
 	public static void initializeWeb_Driver()
 			throws IOException, ParseException, org.json.simple.parser.ParseException, InterruptedException {
-		String browser = "firefox";
+		String browser = "chrome";
 		//DataReader.getParameterString("browser", "environment");
 		if ((browser.equalsIgnoreCase("chrome"))) {
-			WebDriverManager.chromedriver().setup();
+			//WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver",chromeDriverPath);
 			
 //			Map<String, Object> preferences = new Hashtable<String, Object>();
 //			preferences.put("profile.default_content_settings.popups", 0);
