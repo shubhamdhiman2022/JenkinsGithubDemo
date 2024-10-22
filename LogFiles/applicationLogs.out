@@ -1,8 +1,8 @@
-2024-10-22 16:10:104 INFO  TestRunner:32 - Execution Starts at: Tue Oct 22 16:18:32 IST 2024
-2024-10-22 16:10:189 INFO  PageActions:64 - Navigated to demo site
-2024-10-22 16:10:528 INFO  PageActions:411 - Enter the value into Username
-2024-10-22 16:10:691 INFO  PageActions:416 - mngr598322 typed into Username
-2024-10-22 16:10:934 INFO  PageActions:411 - Enter the value into Password
-2024-10-22 16:10:90 INFO  PageActions:416 - nUbunEr typed into Password
-2024-10-22 16:10:166 INFO  PageActions:130 - Clicking on: login
-2024-10-22 16:10:213 INFO  TestRunner:41 - Execution Ends at: Tue Oct 22 16:18:47 IST 2024
+2024-10-22 16:10:775 INFO  TestRunner:32 - Execution Starts at: Tue Oct 22 16:44:38 IST 2024
+2024-10-22 16:10:723 INFO  PageActions:64 - Navigated to demo site
+2024-10-22 16:10:969 INFO  PageActions:411 - Enter the value into Username
+2024-10-22 16:10:112 INFO  PageActions:416 - mngr598322 typed into Username
+2024-10-22 16:10:252 INFO  PageActions:411 - Enter the value into Password
+2024-10-22 16:10:298 INFO  PageActions:416 - nUbunEr typed into Password
+2024-10-22 16:10:443 INFO  PageActions:130 - Clicking on: login
+2024-10-22 16:10:859 INFO  TestRunner:41 - Execution Ends at: Tue Oct 22 16:44:54 IST 2024
