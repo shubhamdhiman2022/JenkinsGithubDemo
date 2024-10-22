@@ -1,11 +1,11 @@
 {
 	"environment": {
 		"browser": "chrome",
-		"UatUrl": "https://demo.guru99.com/v4/index.php",
+		"UatUrl": "https://demo.guru99.com/V1/index.php",
 		"YopMail": "https://yopmail.com/"
 	},
 	"credentials":{
-		"username":"mngr540281",
-		"password":"YbupAzY"
+		"username":"mngr598322",
+		"password":"nUbunEr"
 	}
 }
