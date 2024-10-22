@@ -10,5 +10,5 @@ public class Config {
 	public static String fol_dummyTestDocFilePath=System.getProperty("user.dir")+"\\Dummy_Test_File"+"\\dummy.doc";
 	//public static String fol_dummyTestDocFolderPath=System.getProperty("user.dir")+"/Dummy_Test_File";
 	public static String fol_HolidayjsonFilePath=System.getProperty("user.dir")+"./DataFiles/HolidayCalendar.json";
-	public static String chromeDriverPath =System.getProperty("user.dir")+"/Driver/chromedriver.exe";
+	public static String chromeDriverPath ="TsAutomation/workspace/Driver/chromedriver.exe";//System.getProperty("user.dir")+"/Driver/chromedriver.exe";
 }
