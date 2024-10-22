@@ -31,7 +31,7 @@ public class LoginPageStepDef {
 		loginPage.verifyloggedin();
 	}
 	@Then("verify failure")
-	public void verify_failure() {
+	public void verify_failure() throws Exception {
 		loginPage.failedscenrios();
 	}
 

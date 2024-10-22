@@ -69,8 +69,10 @@ public class LoginPage{
 		assertTrue(verifyWebElementVisible(managertab, 45), "Loggged in failed");
 	}
 	
-	public void failedscenrios()
+	public void failedscenrios() throws Exception
 	{
+		driver.navigate().to("https://qa-timesheet.grazitti.com/login.php?stage-env");
+		Thread.sleep(2000);
 		assertTrue(false, "Forcefully failed");
 	}
 }
