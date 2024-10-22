@@ -29,7 +29,7 @@ public class StartDriver {
 	 */
 	public static void initializeWeb_Driver()
 			throws IOException, ParseException, org.json.simple.parser.ParseException, InterruptedException {
-		String browser = "firefox";
+		String browser = "chrome";
 		//DataReader.getParameterString("browser", "environment");
 		if ((browser.equalsIgnoreCase("chrome"))) {
 			WebDriverManager.chromedriver().setup();
@@ -52,7 +52,7 @@ public class StartDriver {
 			options.addArguments("--remote-allow-origins=*");
 			//options.setExperimentalOption("prefs", preferences);
 			//For headless mode
-			//options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors","--disable-extensions","--no-sandbox","--disable-dev-shm-usage");
+			options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors","--disable-extensions","--no-sandbox","--disable-dev-shm-usage");
 			DesiredCapabilities caps = new DesiredCapabilities();
 			caps.setAcceptInsecureCerts(true);
 			caps.setCapability(ChromeOptions.CAPABILITY, options);
