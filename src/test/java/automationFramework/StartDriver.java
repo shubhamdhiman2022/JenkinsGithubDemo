@@ -32,14 +32,14 @@ public class StartDriver {
 		if ((browser.equalsIgnoreCase("chrome"))) {
 			WebDriverManager.chromedriver().setup();
 			
-			Map<String, Object> preferences = new Hashtable<String, Object>();
-			preferences.put("profile.default_content_settings.popups", 0);
-			preferences.put("download.default_directory", fol_downloadFilePath);
-			preferences.put("download.prompt_for_download", "false");
-
-			// disable flash and the PDF viewer
-			preferences.put("plugins.plugins_disabled", new String[]{
-			    "Adobe Flash Player", "Chrome PDF Viewer"});
+//			Map<String, Object> preferences = new Hashtable<String, Object>();
+//			preferences.put("profile.default_content_settings.popups", 0);
+//			preferences.put("download.default_directory", fol_downloadFilePath);
+//			preferences.put("download.prompt_for_download", "false");
+//
+//			// disable flash and the PDF viewer
+//			preferences.put("plugins.plugins_disabled", new String[]{
+//			    "Adobe Flash Player", "Chrome PDF Viewer"});
 			
 			ChromeOptions options = new ChromeOptions();
 			//options.addArguments("-incognito");
@@ -47,7 +47,7 @@ public class StartDriver {
 			options.setExperimentalOption("excludeSwitches",
 				    Arrays.asList("disable-popup-blocking"));
 			options.addArguments("--remote-allow-origins=*");
-			options.setExperimentalOption("prefs", preferences);
+			//options.setExperimentalOption("prefs", preferences);
 			//For headless mode
 			//options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--ignore-certificate-errors","--disable-extensions","--no-sandbox","--disable-dev-shm-usage");
 			DesiredCapabilities caps = new DesiredCapabilities();
